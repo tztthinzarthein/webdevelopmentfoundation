@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS Regular Function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// console.log("hey");
+		// function greet(){
+		// 	console.log("Hello Mandalay");
+
+		// }
+		// greet();
+		// // greet();
+
+		// function printalert(){
+		// 	window.alert("hello myanmar");
+		// }
+		// printalert();
+
+
+		// function hello() {
+		// 	// body...
+		// 	return "hello yangon";
+		// }
+
+		// console.log(hello());
+		// window.alert(hello());
+		// document.write(hello());
+
+
+		function myfun1(city){
+			console.log("hello" + city);
+		}
+		myfun1("Yangon");
+		myfun1("Mawlamyine");
+		myfun1();
+
+		function myfun2(city="Mandalay"){
+			console.log(`Hello ${city}`);
+		}
+		myfun2("Myanmar");
+		myfun2();
+
+		function multifun1(x,y){
+			console.log(`X Value is =${x} and Y Value is = ${y}`);
+		}
+		multifun1(10,20);
+
+		function multifun2(x,y,z){
+			const result = x+y+z;
+			return result;
+		}
+		console.log(multifun2(10,20,30));
+
+		function multifun3(x,y,z=100){
+			const result = x+y+z;
+			return result;
+		}
+		console.log(multifun3(10,20,50));
+
+		let num1 = 0;
+		let num2 = 1;
+		let num3 = 2;
+
+		function multifun4(a,b,c){
+			console.log('a value is ${a} b value is ${b} c value is ${c}');
+		}
+
+		multifun4(num1,num2,num3);
+
+		let annfun = function(a){
+			document.write("My Value is =" + a);
+		}
+		annfun(100);
+
+		let confun = new Function("j","k","return j+k");
+		console.log(confun(10,20));
+
+
+		let s1fun1 = function(a){
+			document.write("I am self invoking function, my value is = " + a);
+		}(50);
+
+		document.write("<hr/>");
+
+		(function(a){
+			document.write("I am self invoking function, my value is = " + a);
+		})(500);
+
+
+		// Get Function Name(.name)
+		function funone(){
+			return "Hello World";
+		}
+		function funtwo(fun){
+			console.log(`$(fun.name)`);
+		}
+		funtwo(funone);
+
+		// call()
+		let myarrs = [];
+		function myfunone(){
+			console.log(`i am myfunone value = ${Math.floor(Math.random() * 100)}`);
+		}
+		console.log(myarrs);
+		myarrs.push(myfunone);
+		myarrs.push(myfunone);
+		// myfunone();
+		// console.log(myarrs);
+
+		function myfuntwo(){
+			myarrs.forEach(function(myarr){
+				myarr.call();
+
+			});
+		}
+		myfuntwo();
+
+
+
+	</script>
+</body>
+</html>

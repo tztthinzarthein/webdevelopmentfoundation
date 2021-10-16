@@ -1,0 +1,252 @@
+.divhead
+{
+	background-image: url(../img/eximages/v3.jpg);
+	height: 120px;
+	margin: 0px;
+	float: left;
+	width: 100%;
+}
+.divhead h1
+{
+	color: #fff;
+	font-family: 'Times New Roman', cursive;
+	text-align: center;
+	text-shadow: -3px 2px 2px black;
+}
+.divhead p
+{
+	text-align: center;
+	color: #fff;
+	font-family: Century;
+	text-shadow: -3px 2px 2px black;
+}
+.divpartA
+{
+	/*background-color: red;*/
+	float: left;
+	width: 23%;
+	height: 400px;
+}
+.divpartA .sp1
+{
+	background-color: green;
+	color: white;
+	width: 21%;
+	position: absolute;
+	border-radius:0px 50px 50px 0px;
+	padding: 4px;
+	font-family:'Times New Roman' ;
+}
+.divpartA .sp2
+{
+	background-color: green;
+	color: white;
+	width: 21%;
+	margin-top:8px;
+	position: absolute;
+	border-radius:0px 50px 50px 0px;
+	padding: 4px;
+	font-family:'Times New Roman' ;
+}
+.divpartA .sp3
+{
+	background-color: green;
+	margin-top: 17px;
+	position: absolute;
+	/*position: relative;*/
+	width: 295px;
+	height: 220px;
+}
+/*.divpartA .sp3 .search-container
+{
+	background-color: white;
+}*/
+.divpartA .sp3 .search-container .search
+{
+	width: 218px;
+	margin-left: 2px;
+}
+.divpartA .sp3 p
+{
+	font-family: Century;
+	text-align: center;
+	text-transform: lowercase;
+	border: 1px solid rgba(0,0,0,0.2);
+	margin-left: 3px;
+	margin-top: 10px;
+	font-size: 17px;
+
+}
+
+.divpartA .sp4
+{
+	background-color: green;
+	color: white;
+	width: 21%;
+	margin-top:220px;
+	position: absolute;
+	border-radius:0px 50px 50px 0px;
+	padding: 4px;
+	font-family:'Times New Roman' ;
+}
+.divpartA .sp5
+{
+	background-color: green;
+	color: white;
+	width: 21%;
+	margin-top:230px;
+	position: absolute;
+	border-radius:0px 50px 50px 0px;
+	padding: 4px;
+	font-family:'Times New Roman' ;
+}
+.divpartA .sp6
+{
+	background-color: green;
+	color: white;
+	width: 21%;
+	margin-top:240px;
+	position: absolute;
+	border-radius:0px 50px 50px 0px;
+	padding: 4px;
+	font-family:'Times New Roman';
+}
+.divpartB
+{
+	/*background-color: gray;*/
+	float: left;
+	width: 76%;
+	height: 500px;
+	position: relative;
+	z-index: 2;
+}
+.divpartB span
+{
+	font-size: 15px;
+}
+/*hr
+{
+	color: black;
+}*/
+/*.divpartB .m1
+{
+	width: 235px;
+	height: 230px;
+	background-color:orange;
+	border-radius: 50px 0px 50px 0px;
+	margin-left: 15px;
+	float: left;
+	/*position: relative;*/
+.divpartB .p1,.p2,.p3,.p4
+{
+	margin-top: 130px;
+	position: absolute;
+	color: yellow;
+	text-align: left;
+	margin-left: 8px;
+	font-family:'Times New Roman' ;
+	text-transform: capitalize;
+
+}
+.divpartB .img1
+{
+	position: absolute;
+	border-radius: 50%;
+	top: 115px;
+	left: 70px;
+	/*margin-top: 40px;*/
+	/*background-size: 4px;*/
+
+}
+.divpartB .img2
+{
+	position: absolute;
+	border-radius: 50%;
+	top: 115px;
+	left: 320px;
+	/*background-size: 4px;*/
+
+}
+.divpartB .img3
+{
+	position: absolute;
+	border-radius: 50%;
+	top: 115px;
+	left: 570px;
+	/*background-size: 4px;*/
+
+}
+.divpartB .img4
+{
+	position: absolute;
+	border-radius: 50%;
+	top: 115px;
+	left: 830px;
+	/*background-size: 4px;*/
+
+}
+.divpartB h2
+{
+	font-family:'Times New Roman' ;
+}
+
+.divpartB .m1{
+	/*background-image: url(../img/eximages/v2.png);*/
+	width: 200px;
+	height: 220px;
+	background-color:orange;
+	border-radius: 50px 0px 50px 0px;
+	margin-left: 15px;
+	float: left;
+	margin-top: 10px;
+}
+.divpartB .m2{
+	width: 200px;
+	height: 220px;
+	background-color:orange;
+	border-radius: 50px 0px 50px 0px;
+	margin-left: 25px;
+	float: left;
+	margin-top: 10px;
+}
+.divpartB .m3{
+	width: 200px;
+	height: 220px;
+	background-color:orange;
+	border-radius: 50px 0px 50px 0px;
+	margin-left: 35px;
+	float: left;
+	margin-top: 10px;
+}
+.divpartB .m4{
+	width: 200px;
+	height: 220px;
+	background-color:orange;
+	border-radius: 50px 0px 50px 0px;
+	margin-left: 45px;
+	float: left;
+	margin-top: 10px;
+}
+.divpartB .m5{
+	clear: both;
+	margin-top: 240px;
+	position: absolute;
+	font-family:'Times New Roman' ;
+	font-size: 17px;
+	text-transform: capitalize;
+
+}
+
+
+.divfoot
+{  
+    width: 99%;
+	background-image: url(../img/eximages/v4.jpg);
+	height: 110px;
+	bottom: 0;
+
+	position: absolute;
+	clear: both;
+	background-repeat: repeat-x;
+	z-index: 1;
+}

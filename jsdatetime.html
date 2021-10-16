@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS DateTime</title>
+</head>
+<body>
+	<small>copy right. <span id="year"> </span>All service reserved by dlt.coltd...</small>
+	<script type="text/javascript">
+		// console.log("hay");
+		let date = new Date();
+		// console.log(date);
+		let hour = date.getHours();
+		console.log(hour);
+		let minute = date.getMinutes();
+		console.log(minute);
+		let second = date.getSeconds();
+		console.log(second);
+		let getTime = date.getTime();
+		console.log(getTime);
+		let now = Date.now();
+		console.log(now);
+		let month = date.getMonth();
+		console.log(month);
+		let day = date.getDay();
+		console.log(day);
+		let year = date.getYear();
+		console.log(year);
+
+		document.getElementById('year').textContent=year;
+
+		let utcyear = date.getUTCFullYear();
+		console.log(utcyear);
+
+		let bd = new Date('8-10-2021');
+		bd = new Date('8/10/2021');
+		bd = new Date('8/10/2021');
+		bd = new Date('8/10/2021');
+
+		bd.setMonth();
+		bd.setYear();
+
+	</script>
+</body>
+</html>

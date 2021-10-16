@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS Statement </title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		// console.log("hey");
+		const num1 = "4";
+		const num2 = 4;
+
+
+		console.log(num1<num2 ? "yes it is true" : "No it is false");
+		//check value
+		document.write("equal to (==) result = "+ (num1 == num2 ? "True" : "False")+"<br/>");
+		//check value/ data type
+		document.write("equal to (==) result ="+ (num1 === num2 ? "True" : "False")+"<br/>");
+
+		
+
+		//check value
+		document.write(" not equal (!=) result ="+ (num1 != num2 ? "True" : "False")+"<br/>");
+		//check value/ data type
+		document.write("not equal(!==) result ="+ (num1 !== num2 ? "True" : "False")+"<br/>");
+
+
+		document.write(" grater than (>) result ="+ (num1 > num2 ? "True" : "False")+"<br/>");
+		
+		document.write("smaller than(<) result ="+ (num1 < num2 ? "True" : "False")+"<br/>");
+
+		document.write(" grater than (>=) result ="+ (num1 >= num2 ? "True" : "False")+"<br/>");
+		
+		document.write("smaller than(<=) result ="+ (num1 <= num2 ? "True" : "False")+"<br/>");
+
+		document.write('<hr/>');
+
+     const id=50;
+
+     if(id=="50")
+     {
+     	console.log("correct");
+     }else
+     {
+     	console.log("Incorrect");
+     }
+
+     if (id==="50") {
+     	console.log("correct");
+     }
+     else{
+     	console.log("Incorrect");
+     }
+     if(id!=30)
+     {
+     	console.log("correct");
+     }
+     else
+     {
+     	console.log("Incorrect");
+     }
+     if(id!=="30")
+     {
+     	console.log("correct");
+     }
+     else{
+     	console.log("Incorrect");
+     }
+
+     const j= 40;
+     let k= 20;
+
+     if(j<k){
+     	console.log("Yes j is less than k");
+
+     }else if(j==k)
+     {
+     	console.log("Yes j is equal to k");
+     }
+     else
+     {
+     	console.log("No j is grater than k");
+     }
+
+     const color = "white";
+
+     switch(color){
+     	case "black" :
+     	console.log("My fav color is not black");
+     	break;
+     	case "yellow" :
+     	console.log("My fav color is not yellow");
+     	break;
+     	case "red" :
+     	console.log("My fav color is red");
+     	break;
+     	default:
+     	console.log("Try again");
+     	// break;
+     	
+
+     }
+
+     let daycount = new Date().getDay();
+
+     let today;
+
+     switch(daycount){
+     	case 0:
+     	today = "sunday";
+     	break;
+     	case 1:
+     	today = "Monday";
+     	break;
+     	case 2:
+     	today = "Tuesday";
+     	break;
+     	case 3:
+     	today = "Wednesday";
+     	break;
+     	case 4:
+     	today = "Thursday";
+     	break;
+     	case 5:
+     	today = "Friday";
+     	break;
+     	default:
+     	today = "Saturday";
+     }
+     // document.write("Today is"+ today);
+     document.write(`Today is ${today}`);
+
+     let p = 10;
+     let q = 50;
+     console.log(p);
+
+     p=q;
+     console.log(p);
+
+     q = q + p;
+     console.log(q);
+
+     q += p;
+     a = q + p;
+     console.log(q);
+
+     q -= p;
+     a = q - p;
+     console.log(q);
+
+     q *= p;
+     a = q * p;
+     console.log(q);
+
+     q /= p;
+     a = q / p;
+     console.log(q);
+
+     q %= p;
+     a = q % p;
+     console.log(q);
+
+	</script>
+</body>
+</html>
+
+<!-- comparison Operator(9)
+== equal to
+=== equal to
+!= not equal
+!== not equal
+> greater than
+< less than
+>= greater than equal
+<= less than equal
+? statement (ternary operator) -->

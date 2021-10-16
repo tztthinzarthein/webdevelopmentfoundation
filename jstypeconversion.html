@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS TypeConversion</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// console.log("hay");
+		let val;
+
+		// number to string
+		// val = 5;
+		val =(5).toString();
+		val = String(val);
+
+		val = false;
+		val = String(val);
+
+		val = new Date();
+		val = String(new Date());
+
+		val = [200,100,300,500];
+		val = String(val);
+
+
+		//string to number
+		val = "5";
+		val = Number("5");
+		val = +"5";
+		val = parseInt("5");
+
+		val = "100.250";
+		// val = parseInt(val);
+		val = parseFloat(val);
+
+
+		val = true;
+		val = Number(val);
+
+		// String Number
+		val = "Aung Aung"
+		val = Number(val);
+
+		val = [10,20,30];
+		val = Number(val);
+
+		val = 200.123456;
+
+
+		console.log(val);
+		console.log(typeof val);
+		console.log(val.toFixed(4));
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Window Object</title>
+</head>
+<body>
+
+	<div style="margin-top: 0px;"></div>
+	
+	<script type="text/javascript">
+		// console.log('hay');
+		// alert
+		// window.alert('Hello World');
+
+		// Prompt
+		// const input = prompt("Write Something");
+		// console.log(input);
+
+		// Confirm
+		// confirm("Are you sure");
+
+		// if(confirm("Are you sure")){
+		// 	console.log('Yes i want to delete');
+		// }else{
+		// 	console.log('Ohh!! sorry i don\'t');
+		// }
+
+		let val;
+
+		// Outer width
+		val = window.outerWidth;
+		console.log('this is outer width = ' + val);
+
+		// Outer Height
+		val = window.outerHeight;
+		console.log('this is outer height = ' + val);
+
+
+		// Inner width
+		val = window.innerWidth;
+		console.log('this is inner width = ' + val);
+
+		// Inner Height
+		val = window.innerHeight;
+		console.log('this is inner height = ' + val);
+
+
+		// Scroll Points
+		val = window.scrollY;
+		console.log('ScrollY value = ' +val);
+
+
+		// Location Object
+		val = window.location;
+		console.log(val);
+		val = window.location.hostname;
+		console.log(val);
+		val = window.location.port;
+		console.log(val);
+		val = window.location.href;
+		console.log(val);
+		val = window.location.search;
+		console.log(val);
+
+
+		// Redirect
+		// window.location.href = "https://google.com";
+
+		// Reload
+		// window.location.reload();
+
+
+		// Navigator Object
+		console.log(window.navigator);
+		document.write('appName = ' + window.navigator.appName +"<br/>");
+		document.write('appVersion = ' + window.navigator.appVersion +"<br/>");
+		document.write('userAgent = ' + window.navigator.userAgent +"<br/>");
+		document.write('platform = ' + window.navigator.platform +"<br/>");
+		document.write('javaenabled() = ' + window.navigator.javaEnabled() +"<br/>");
+		document.write('lanugage = ' + window.navigator.language +"<br/>");
+		document.write('onLine = ' + window.navigator.onLine +"<br/>");
+
+	</script>
+</body>
+</html>

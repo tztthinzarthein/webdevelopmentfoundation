@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS Oject Literals</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// console.log("hey");
+		// Js Object (Array as Object (API))
+
+		let obj1 = {
+			firstnmae : "Tin",
+			middlename : "Htut",
+			lastname : "Aung"
+		};
+		console.log(obj1);
+		console.table(obj1);
+		
+		console.log(obj1.firstnmae);
+		console.log(obj1.middlename);
+		console.log(obj1.lastname);
+		console.log(obj1.age);
+
+		let obj2 = {
+			firstnmae : "Thinzar",
+			lastname  : "Thein",
+			age  : 40,
+			email:"thinzar@gmail.com",
+			hobbies : ["titok","music","sport"],
+			address : {
+				street:"Tamwe",
+				city : "Mandalay"
+			}
+		};
+		console.log(obj2);
+		console.log(obj2);
+
+		console.log(obj2.firstnmae);
+		console.log(obj2.lastname);
+		
+		console.log(obj2.age);
+		console.log(obj2.hobbies[0]);
+		
+		console.log(obj2.address.street);
+		console.log(obj2.address.city);
+
+		const todo = {
+			add:function(){
+				console.log("Add to do....");
+			},
+			edit:function(x){
+				console.log("Have to " + x);
+			},
+			delete:function(){
+				console.log("Delete all notes");
+			}
+		}
+		// console.log(todo.add());
+		todo.add();
+		todo.edit("code");
+		todo.delete = function(){
+			console.log("Delete all notes");
+		};
+		todo.delete();
+
+	</script>
+</body>
+</html>

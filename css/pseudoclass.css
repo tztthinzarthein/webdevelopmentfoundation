@@ -1,0 +1,46 @@
+.div1{
+	width: 300px;
+	height: 100px;
+	background-color: green;
+}
+
+/*.div1:first-child{
+	background: red;
+	color:white;
+}*/
+
+
+/*.div1:first-of-type{
+	background: orange;
+	color:white;
+}
+*/
+
+
+
+/*.div1:last-of-type{
+	background: violet;
+	color:white;
+}*/
+
+
+
+/*.div1:nth-of-type(5){
+	background-color: blue;
+	color:white;
+}*/
+
+
+.div1:nth-child(even){
+	background-color: silver;
+	color:white;
+}
+
+
+
+
+
+/*hover visited active*/
+/*
+ordinal number
+1st 2nd 4th ........... nth*/

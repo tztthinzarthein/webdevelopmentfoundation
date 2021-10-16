@@ -1,0 +1,86 @@
+/*variable*/
+:root
+{
+	--oc:orange;
+	--gn:#0d7517;
+	--vi:rgba(227,34,196,1.00);
+}
+.div1
+{
+	width: 100px;
+	height: 80px;
+	background-color:var(--gn);
+	/*Vendors Prefix Properties*/
+	-webkit-transform:rotate(180deg);/*chrome,safri,opera*/
+	-moz-transform:rotate(180deg); /*mozila*/ /*-ms- Internet explore*/
+	transform: rotate(10deg);
+}
+.div2
+{
+	width: 200px;
+	height: 80px;
+	background-color:var(--oc);
+	transform: rotate(50deg);
+
+}
+.div3
+{
+	width: 200px;
+	height: 80px;
+	background-color:var(--vi);
+	transform: rotateY(50deg);
+
+}
+.div4
+{
+	width: 100px;
+	height: 80px;
+	background-color: var(--gn);
+	/*transform: translate(20px,10px);*/
+	transform: rotateX(30deg);
+}
+.div5
+{
+	width: 100px;
+	height: 80px;
+	background-color: var(--vi);
+	color:#fff;
+	transform: scale(0.8);
+}
+
+.country
+{
+	font-size: 16px;
+	-webkit-appearance : none;
+	-moz-appearance : none;
+	appearance : none;
+	padding: 10px 25px 10px 10px;
+	background-image: url(https://pngimage.net/wp-content/uploads/2018/06/red-arrow-down-png-1.png);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: right;
+	background-position-x:90%;
+
+}
+.country:focus
+{
+	outline: 0;
+}
+h1
+{
+	text-align: center;
+}
+p.text
+{
+	text-align: center;
+	color: red;
+}
+@media(max-width: 600px){
+	h1{
+		font-size: 22px;
+	}
+	p.text
+	{
+		color: blue;
+	}
+}

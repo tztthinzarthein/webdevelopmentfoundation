@@ -1,0 +1,94 @@
+/*.mn*/
+/*{
+	color: red;
+	width: 300px;
+	height: 200px;
+	background-color: silver;
+}*/
+
+/*.abc
+{
+	color: red;
+}*/
+/*Tag to Tag*/
+/*div span small.name{
+	color: red;
+}*/
+/*div span .name
+{
+	color: red;
+}
+div p.address
+{
+	color: red;
+}
+div .name .age
+{
+	color: blue;
+}
+
+/*class to class*/
+/*.bank
+{
+	color: red;
+}*/
+.bank .currency
+{
+	color: red;
+}
+
+/*div span small.name
+{
+	color: red;
+}*/
+/*.bank .money .currency
+{
+	color: red;
+}
+
+/*class to tag*/
+
+/*.container p
+{
+	color: red;
+}*/
+/*.container b span
+{
+	color: red;
+}
+
+.mobile.jpn
+{
+	color: green;
+}
+.mobile.us
+{
+	color: blue;
+}
+.mobile.cn
+{
+	color: red;
+}*/
+.venhicle .car.jpn
+{
+	color: red;
+}
+.venhicle .car.cn
+{
+	color: yellow;
+}
+.venhicle .car.us
+{
+	color: green;
+}
+.div1 b, .div1 p
+{
+	color: red;
+}
+/*general sibling selector*/
+/*.div4 ~ p
+{
+	color: red;
+}*/
+
+/*adjecent sibling selector*/

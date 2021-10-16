@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document Object Model - ClOCK</title>
+</head>
+<body>
+	<div>
+		<p id="display"></p>
+	</div>
+	<script type="text/javascript">
+		let getdisplay = document.getElementById('display');
+		// console.log(getdisplay);
+		function startclock(){
+			let date = new Date();
+		// console.log(date);
+
+		let gethour = date.getHours();
+		// console.log(gethour);
+		let getminute = date.getMinutes();
+		// console.log(getminute);
+		let getsecond = date.getSeconds();
+		// console.log(getsecond);
+
+		// let clock = gethour+":"+getminute+":"+getsecond;
+
+		let getampm;
+
+		switch(gethour > 12){
+			case true:
+			getampm = "PM";
+			gethour = gethour - 12;
+			break;
+
+			case false:
+			getampm = "AM";
+			break;
+		}
+        
+        let clock = gethour+":"+getminute+":"+getsecond+" "+getampm;
+
+		getdisplay.innerText = clock;
+		}
+
+		startclock();
+
+		setInterval(startclock,1000);
+	</script>
+</body>
+</html>

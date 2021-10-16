@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Elements</title>
+</head>
+<body>
+      
+       <h1>Form Tag</h1>
+       <fieldset>
+       <legend>This is simple form &dollar;</legend>
+       <form action="" method="" enctype="multipart/formdata">
+       	<label for="firstname">First Name: </label>
+       	<input type="text" name="firstname" id="firstname"  class="" placeholder="Enter your firstname" minlength="4" maxlength="6" />
+
+       	<br/>
+
+       	<label for="lastname">Last Name: </label>
+       	<input type="text" name="lastname" id="lastname" class="" placeholder="Enter your lastname"/>
+       
+       <br/>
+       <label for="email">Email:</label>
+       <input type="email" name="email" id="email" class="" placeholder="Enter your email" required />
+       <br/>
+       <label for="password">Password:</label>
+       <input type="password" name="password" id="password" class="" placeholder="Enter your password"/>
+       <br/>
+       <label for="age">Age:</label>
+       <input type="number" name="age" id="age" class="" placeholder="Enter your age"/>
+
+       <br/>
+       <label>Gender:</label>
+       <input type="radio" name="gender" id="genderm" class=""value="male"/><label for="genderm" >Male</label>
+       <input type="radio" name="gender" id="genderf" class="" value="female" /><label for="genderf"/>Female</label>
+
+       <br/>
+       <label for="salary">Salary:</label>
+       <input type="radio" name="salary" id="salaryc" class="" checked /><label for="salaryc" >Cash</label>
+       <input type="radio" name="salary" id="salarym" class=""/><label for="salarym">Mobile Banking</label>
+
+       <br/>
+       <label>Choose your fav color:</label>
+       <input type="checkbox" name="color" id="colorred"   class="" value="colr"/><label for="colorred">Red</label>
+       <input type="checkbox" name="color" id="colorwhite" class="" value="colw"/><label for="colorwhite">White</label>
+       <input type="checkbox" name="color" id="colorgreen" class="" value="colg"/><label for="colorgreen">Green</label>
+       <input type="checkbox" name="color" id="colorblue"  class="" value="colb"/><label for="colorblue">Red</label>
+
+       <br/>
+       <label for="country">Citizen:</label>
+       <select name="country" id="country">
+       	<option selected disabled>Choose your country</option>
+       	<option value="mm">Myanmar</option>
+       	<option value="tl">Thainland</option>
+       	<option value="lo">Lao</option>
+       	<option value="ma">Malaysia</option>
+       	<option value="ko">Korea</option>
+       	<option value="jp">Japane</option>
+       </select>
+              <br/>
+       <label for="role">Role:</label>
+       <select name="role" id="role" multiple>
+              <option value="mg">Manager</option>
+              <option value="ed">Editor</option>
+              <option value="sa">Sales</option>
+       </select>
+       <input type="hidden" name="test" id="test" class="" value="Test"/>
+       <br/>
+       <label for="date">Date</label>
+       <input type="date" name="date" id="date" class=""/>
+
+       <br/>
+       <label for="time">Time</label>
+       <input type="time" name="time" id="time" class=""/>
+
+       <br/>
+       <label for="datetime">Date Time</label>
+       <input type="datetime-local" name="datetime" id="datetime" class=""/>
+
+       <br/>
+       <label for="nrcfront">NRC Front</label>
+       <input type="file" name="nrcfront" id="nrcfront" class="" multiple />
+
+       <br/>
+       <label for="range">Range</label>
+       <input type="range" name="range" id="range" class="" min="0" max="100" value="0"/>
+
+        <br/>
+       <label for="bio">Bio:</label>
+       <textarea rows="10"></textarea>
+
+       <br/>
+       <input type="reset" name="reset" id="reset" class="" value="Cancel">
+       <input type="submit" name="submit" id="submit" class="" value="Register">
+       <button type="submit" name="btn" id="btn" class="">Register</button>
+      
+     
+       </form>
+ </fieldset>
+
+ <hr/>
+ <iframe src="tabletag.html" width="500px" height="600px"></iframe>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js DOM Calculator</title>
+</head>
+<body>
+
+	<!-- <form action="" method=""> -->
+		<label for="firstnumber">First Number</label>
+		<input type="text" name="firstnumber" id="firstnumber" class=""/> <br/><br/>
+
+		<label for="secondnumber">Second Number</label>
+		<input type="text" name="secondnumber" id="secondnumber" class=""/> <br/><br/>
+
+		<button name="add" id="add" class="" onclick="sign('+')">+</button>
+		<button name="sub" id="sub" class="" onclick="sign('-')">-</button>
+		<button name="multi" id="multi" class="" onclick="sign('*')">x</button>
+		<button name="dev" id="dev" class="" onclick="sign('/')">/</button>
+		<button name="mod" id="mod" class="" onclick="sign('%')">%</button>
+
+		<button name="cal" id="cal" class="" onclick="calculat()">Calculate</button> <br/><br/>
+
+		<input type="text" name="result" id="result" class="" /> <br/><br/>
+
+		<input type="hidden" name="temsign" id="temsign" class="" />
+	<!-- </form> -->
+
+	<script type="text/javascript">
+		// console.log('hay');
+
+		function sign(sign){
+			// console.log('hay');
+			// console.log(sign);
+			document.getElementById('temsign').value = sign;
+		}
+
+
+		function calculat(){
+			let num1 = Number(document.getElementById('firstnumber').value);
+			// console.log(typeof num1);
+			let num2 = Number(document.getElementById('secondnumber').value);
+			// console.log(num1,num2);
+
+
+			let getsign = document.getElementById('temsign').value;
+			// console.log(getsign);
+
+			let cal;
+
+			switch(getsign){
+				case "+":
+				cal = num1 + num2;
+				break;
+
+				case "-":
+				cal = num1 - num2;
+				break;
+
+				case "*":
+				cal = num1 * num2;
+				break;
+
+				case "/":
+				cal = num1 / num2;
+				break;
+
+				case "%":
+				cal = num1 % num2;
+				break;
+
+				default:
+				window.alert("No Sign");
+			}
+
+			document.getElementById('result').value = cal;
+
+		}
+
+	</script>
+	</body>
+</html>

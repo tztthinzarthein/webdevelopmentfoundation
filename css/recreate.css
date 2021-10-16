@@ -1,0 +1,70 @@
+@font-face{
+	font-family:Stick;
+	src:local('Stick-Regular'),url(../libs/fonts/stick/Stick-Regular.ttf) format('woff');
+}
+
+@font-face
+{
+	font-family:'source';
+	src:local('SourceSansPro-SemiBold'),url('../libs/fonts/source/SourceSansPro-SemiBold.ttf')format('woof');
+}
+body
+{
+	background-image: url(../img/bgimage/programmar.jpg);
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+}
+h1
+{
+	text-shadow: -5px -5px 3px black;
+	color: white;
+	text-align: center;
+	font-family: century;
+}
+fieldset
+{
+	height: 370px;
+}
+legend
+{
+	color: yellow;
+	text-align: right;	
+	font-size: 80%;
+
+}
+
+.d1
+{
+	text-align:right;
+	color: yellow;
+	font-family: 'Stick', Arial , Century;
+}
+form
+{
+	border-style: dotted;
+	width:26%;
+	height:290px;
+	color: white;
+
+}
+.l1
+{
+	text-shadow: -5px -4px 3px black;
+	font-weight: bold;
+	font-family: century;
+}
+.l2,.l3
+{
+	text-shadow: -5px -4px 3px black;
+	font-family: century;
+}
+p
+{
+	text-align: justify;
+	font-size: 15px;
+}
+a
+{
+	color: yellow;
+}

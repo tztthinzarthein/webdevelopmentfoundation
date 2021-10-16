@@ -1,0 +1,23 @@
+p{
+	color: red;
+}
+h1,h2{
+	color: green;
+}
+span{
+	color: red;
+}
+#myself,#pfm
+{
+	color: violet;
+}
+
+.redcolor
+{
+	color: red;
+}
+.font20
+{
+	font-size: 20px;
+
+}
